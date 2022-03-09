@@ -1,0 +1,15 @@
+<p>server1 works!</p>
+<!-- Event Binding,Interpolation and Property Binding examples-->
+<!-- Property Binding and Interpolation are used for sending data from TypeScript  to HTML Page-->
+<!-- Interpolation  uses {{variable}}-->
+<!-- Property Binding use [property]-->
+<!-- Event Binding is used to send data from HTML page to typescript(Usually used when an event occurs)-->
+<!-- Event Binding uses (event)-->
+<button class="btn btn-primary" (click)="EventBindFun()" [disabled]="propertyBind">Click</button> 
+<h1>{{eventbind}}</h1>
+<!--Another Event binding example-->
+<button class ="btn btn-primary" (click)="passingEventVariable($event)">Passing Event Argument</button>
+<br>
+<label>Event Binding with event arrgument as example</label>
+<input type="text" class="form-control" (input)="inputEventWithParameter($event)">
+<p>{{eventDataValue}}</p>

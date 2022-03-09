@@ -1,0 +1,35 @@
+<p>inbuiltdirectives works!</p>
+
+<!-- =====  -->
+
+<!-- ngIf Directive example-->
+<p *ngIf="ngdir1">The directive works</p>
+
+<!-- ========= -->
+<!-- enchanced ngIf and else directive-->
+<p *ngIf ="ngdir1; else reff">The directive works</p>
+<ng-template #reff>
+    <p>Testing</p>
+    <p>The directive does not work</p>
+</ng-template>
+
+<!--ng Style , ngClass-->
+<!-- ngStyle directive should be used with property binding-->
+<!-- ngStyle directive use property binding with key value pair-->
+
+
+<!-- ngStyle Directive Example1-->
+<p [ngStyle]="{backgroundColor:'blue'}">Using of ngStyle Property</p>
+
+
+
+<!-- ng Style directive Example2-->
+<p [ngStyle]="{backgroundColor:getColor()}"> Working of ngStyle directive</p>
+
+
+<!-- ngStyle Directive Example 3(Multiple Key Value Pairs)-->
+<p [ngStyle]="{backgroundColor:'pink', color:'white',width:'500px',height:'200px'}">Using of ngStyle Property</p>
+
+<!--ngFor-->
+<p *ngFor="let a1 of arr1">This ng for directive {{a1}}</p>
+
