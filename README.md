@@ -30,8 +30,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Some Basic  Commands
 
-   # 1.npm install -g @angular/cli@latest --(To install latest angular vesrion)
-   # 2.npm install --save bootstrap@3 --(To install bootstrap version3) 
-   # 3.ng new projectName --(To create a new Project)
-   # 4.ng serve --(To run the Project)
-   # 5.ng generate component componentName(To generate a new component)
+   ### 1.npm install -g @angular/cli@latest --(To install latest angular vesrion)
+   ### 2.npm install --save bootstrap@3 --(To install bootstrap version3) 
+   ### 3.ng new projectName --(To create a new Project)
+   ### 4.ng serve --(To run the Project)
+   ### 5.ng generate component componentName(To generate a new component)
